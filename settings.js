@@ -27,7 +27,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MALVIN XD 😆*",
@@ -43,7 +43,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-      MENTION_REPLY: process.env.MENTION_REPLY || "false",
+      MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 
      MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/qumhu4.jpg",
